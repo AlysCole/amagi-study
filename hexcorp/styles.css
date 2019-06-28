@@ -1,0 +1,164 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section, address, article, aside, header, footer, nav {
+  display: block;
+} */
+
+html,body {
+  height: 100%;
+}
+
+body {
+  /* reset body margin and padding */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #241a3c;
+  color: #F0F0FF;
+}
+
+.menu {
+  padding: 10px 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.logo {
+  height: 80px;
+  float: right;
+  margin: 0 100px;
+  padding: 0px;
+}
+
+.navigation {
+  padding: 30px 0;
+  float: left;
+}
+
+.navigation__list {
+  /* reset list styles for navigation */
+  margin: 0;
+  padding: 0;
+}
+
+.navigation__item {
+  list-style-type: none;
+  float: left;
+  margin-right: 100px;
+}
+
+.navigation__item:first-of-type {
+  margin-left: 100px;
+}
+
+.navigation__item:last-of-type {
+  margin-right: 0;
+}
+
+.navigation__link {
+  color: #F0F0FF;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.navigation__link:hover {
+  color: #fe8b68;
+}
+
+.welcome {
+  background: #36284d;
+  color: #F0F0FF;
+  text-align: right;
+  overflow: hidden;
+  padding: 50px 50px;
+}
+
+.welcome__image {
+  float: right;
+  shape-outside: circle(50%);
+  shape-margin: 30px;
+}
+
+.welcome__slogan {
+  text-transform: uppercase;
+  font-size: 5em;
+  font-weight: bold;
+  margin-bottom: 0.3em;
+  line-height: 1em;
+  letter-spacing: 0.03em;
+}
+
+.welcome__button {
+  padding: 1em;
+  margin-right: 10px;
+  background: #F0F0FF;
+  color: #36284d;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.welcome__button:hover {
+  background: #fe8b68;
+  color: #F0F0FF;
+}
+
+.details {
+  display: block;
+  padding: 30px 5%;
+  margin: 0 auto;
+}
+
+.details__top {
+  display: block;
+}
+
+.details__section {
+  margin: 1%;
+  width: 48%;
+  display: block;
+  float: left;
+}
+
+.details__image {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.separator {
+  margin-bottom: 30px;
+  border: 1px solid #F0F0FF;
+  clear: both;
+}
+
+.details__footer {
+  text-align: left;
+  width: 100%;
+  clear: both;
+}
+
+.email {
+  color: #41a0f1;
+  transition: all 0.3s;
+}
+
+.email:hover {
+  color: #fe8b68;
+}
+
+.section__head,
+.footer__head {
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+
+footer {
+  margin-bottom: 20px;
+  font-size: 0.8em;
+  text-align: center;
+}
