@@ -14,6 +14,7 @@ html,body {
 
 body {
   /* reset body margin and padding */
+  font-family: sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -80,6 +81,7 @@ body {
 }
 
 .welcome {
+  display: flex;
   background: #36284d;
   color: #F0F0FF;
   text-align: right;
@@ -87,15 +89,22 @@ body {
   padding: 50px 50px;
 }
 
+.welcome__content {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-end;
+}
+
 .welcome__image {
-  float: right;
+  order: 3;
   shape-outside: circle(50%);
   shape-margin: 30px;
 }
 
 .welcome__slogan {
   text-transform: uppercase;
-  font-size: 5em;
+  font-size: 4em;
   font-weight: bold;
   margin: 0;
   margin-bottom: 0.3em;
@@ -104,6 +113,7 @@ body {
 }
 
 .welcome__button {
+  height: 1em;
   padding: 1em;
   margin-right: 10px;
   background: #F0F0FF;
