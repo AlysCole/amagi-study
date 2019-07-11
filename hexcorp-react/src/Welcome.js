@@ -8,7 +8,7 @@ function Welcome() {
   const sloganText = "Creative Technologies".split('').map((l) => {
     if (l === ' ') {
       return (
-        <span>{' '}</span>
+        <span>&nbsp;</span>
       )
     }
     return (
