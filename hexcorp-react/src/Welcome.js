@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function Welcome() {
@@ -7,6 +6,11 @@ function Welcome() {
   const [ buttonClass, setButtonClass ] = useState('waves-light btn-large teal lighten-1 welcome__button');
 
   const sloganText = "Creative Technologies".split('').map((l) => {
+    if (l === ' ') {
+      return (
+        <span>{' '}</span>
+      )
+    }
     return (
       <span>{l}</span>
     );
