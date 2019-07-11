@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/amagi-study/hexcorp-react/static/css/main.ad962e56.chunk.css",
+    "main.js": "/amagi-study/hexcorp-react/static/js/main.bfcfbb0e.chunk.js",
+    "main.js.map": "/amagi-study/hexcorp-react/static/js/main.bfcfbb0e.chunk.js.map",
+    "runtime~main.js": "/amagi-study/hexcorp-react/static/js/runtime~main.c00000ea.js",
+    "runtime~main.js.map": "/amagi-study/hexcorp-react/static/js/runtime~main.c00000ea.js.map",
+    "static/css/2.ae9e8b99.chunk.css": "/amagi-study/hexcorp-react/static/css/2.ae9e8b99.chunk.css",
+    "static/js/2.52c2415a.chunk.js": "/amagi-study/hexcorp-react/static/js/2.52c2415a.chunk.js",
+    "static/js/2.52c2415a.chunk.js.map": "/amagi-study/hexcorp-react/static/js/2.52c2415a.chunk.js.map",
+    "index.html": "/amagi-study/hexcorp-react/index.html",
+    "precache-manifest.13120bc5621f4462ba5e8c7d10b58d00.js": "/amagi-study/hexcorp-react/precache-manifest.13120bc5621f4462ba5e8c7d10b58d00.js",
+    "service-worker.js": "/amagi-study/hexcorp-react/service-worker.js",
+    "static/css/2.ae9e8b99.chunk.css.map": "/amagi-study/hexcorp-react/static/css/2.ae9e8b99.chunk.css.map",
+    "static/css/main.ad962e56.chunk.css.map": "/amagi-study/hexcorp-react/static/css/main.ad962e56.chunk.css.map",
+    "static/media/logo.svg": "/amagi-study/hexcorp-react/static/media/logo.5d5d9eef.svg"
+  }
+}
