@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/amagi-study/hexcorp-react/precache-manifest.13120bc5621f4462ba5e8c7d10b58d00.js"
+  "/amagi-study/hexcorp-react/precache-manifest.d938ab343b867d4b2bf77b0a0cccbc3d.js"
 );
 
 self.addEventListener('message', (event) => {
