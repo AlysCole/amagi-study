@@ -6,11 +6,6 @@ function Welcome() {
   const [ buttonClass, setButtonClass ] = useState('waves-light btn-large teal lighten-1 welcome__button');
 
   const sloganText = "Creative Technologies".split('').map((l) => {
-    if (l === ' ') {
-      return (
-        <span>&nbsp;</span>
-      )
-    }
     return (
       <span>{l}</span>
     );

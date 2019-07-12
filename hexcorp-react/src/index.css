@@ -113,7 +113,7 @@ body {
 }
 
 .welcome__slogan span {
-  display: inline-block;
+  display: inline-flex;
   transition-property: transform;
   transition-duration: 1s;
   transition-delay: 0s;
