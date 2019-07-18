@@ -41,6 +41,9 @@ class App extends React.Component {
     }
 
     this.props.setParticipants(participants);
+    this.setState({
+      rounds: this.generateRounds(participants)
+    });
   }
 
   onGenerateWinners = () => {
