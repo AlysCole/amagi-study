@@ -1,0 +1,11 @@
+.Bracket {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.round {
+  display: flex;
+  flex-direction: column;
+}

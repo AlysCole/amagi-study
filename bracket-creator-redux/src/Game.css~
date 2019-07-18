@@ -1,0 +1,10 @@
+.Game {
+  margin: 20px;
+  width: 50px;
+}
+
+.player {
+  padding: 0 10px;
+  margin: 5px;
+  background: #999;
+}

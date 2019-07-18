@@ -1,0 +1,15 @@
+import React from 'react';
+import './Game.css';
+
+function Game({ participants, players, onParticipantWin }) {
+  const playerDivs = players.map((player) => {
+    return <div className="player" onClick={onParticipantWin}>{participants[player]}</div>
+  });
+  return (
+    <div className="Game">
+      {playerDivs}
+    </div>
+  )
+}
+
+export default Game;

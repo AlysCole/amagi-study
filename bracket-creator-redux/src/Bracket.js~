@@ -1,0 +1,30 @@
+import React from 'react';
+import Game from './Game';
+import './Bracket.css';
+
+function Bracket({ participants, wins, rounds }) {
+  const calculateRounds = (participants, wins) => {
+    let rounds = [[], [], []];
+
+    let participantArr = [participants, ...wins];
+    // initiate round 1
+    while (participantArr.length) {
+      rounds[0].push(participantArr.splice(0, 2));
+    }
+
+    return rounds;
+  }
+
+  return (
+    <div className="Bracket">
+
+      {calculateRounds(participants, wins).map((round) => {
+        return (
+          round.map((game) => <Game participants={participants} players={game}/>)
+        )
+      })}
+    </div>
+  )
+}
+
+export default Bracket;

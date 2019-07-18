@@ -1,0 +1,4 @@
+.Bracket {
+  display: flex;
+  flex-flow: column;
+}

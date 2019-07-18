@@ -1,0 +1,8 @@
+// action types
+export const SET_PARTICIPANTS = 'PARTICIPANTS'
+
+// action creators
+export function setParticipants(participants) {
+  type: SET_PARTICIPANTS,
+  participants
+}

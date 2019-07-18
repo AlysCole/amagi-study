@@ -1,0 +1,12 @@
+import React from 'react';
+
+function ParticipantForm({ onChangeParticipants }) {
+  return (
+    <textarea onChange={onChangeParticipants}></textarea>
+    <form >
+      <input type/>
+    </form>
+  );
+}
+
+export default ParticipantForm;

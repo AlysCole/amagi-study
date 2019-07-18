@@ -1,0 +1,13 @@
+.Game {
+  margin: 20px;
+}
+
+.Player {
+  padding: 0 10px;
+  margin: 5px;
+  background: #999;
+}
+
+.Player--hovered {
+  background: #EEE;
+}
