@@ -1,0 +1,203 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+
+# CocoaPods
+/ios/Pods/
+
+
+# Created by https://www.gitignore.io/api/test,emacs,backup
+# Edit at https://www.gitignore.io/?templates=test,emacs,backup
+
+### Backup ###
+*.bak
+*.gho
+*.ori
+*.orig
+*.tmp
+
+### Emacs ###
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Org-mode
+.org-id-locations
+*_archive
+
+# flymake-mode
+*_flymake.*
+
+# eshell files
+/eshell/history
+/eshell/lastdir
+
+# elpa packages
+/elpa/
+
+# reftex files
+*.rel
+
+# AUCTeX auto folder
+/auto/
+
+# cask packages
+.cask/
+dist/
+
+# Flycheck
+flycheck_*.el
+
+# server auth directory
+/server/
+
+# projectiles files
+.projectile
+
+# directory configuration
+.dir-locals.el
+
+# network security
+/network-security.data
+
+
+### Test ###
+### Ignore all files that could be used to test your code and
+### you wouldn't want to push
+
+# Reference https://en.wikipedia.org/wiki/Metasyntactic_variable
+
+# Most common
+*foo
+*bar
+*fubar
+*foobar
+*baz
+
+# Less common
+*qux
+*quux
+*bongo
+*bazola
+*ztesch
+
+# UK, Australia
+*wibble
+*wobble
+*wubble
+*flob
+*blep
+*blah
+*boop
+*beep
+
+# Japanese
+*hoge
+*piyo
+*fuga
+*hogera
+*hogehoge
+
+# Portugal, Spain
+*fulano
+*sicrano
+*beltrano
+*mengano
+*perengano
+*zutano
+
+# France, Italy, the Netherlands
+*toto
+*titi
+*tata
+*tutu
+*pipppo
+*pluto
+*paperino
+*aap
+*noot
+*mies
+
+# Other names that would make sense
+*tests
+*testsdir
+*testsfile
+*testsfiles
+*test
+*testdir
+*testfile
+*testfiles
+*testing
+*testingdir
+*testingfile
+*testingfiles
+*temp
+*tempdir
+*tempfile
+*tempfiles
+*tmp
+*tmpdir
+*tmpfile
+*tmpfiles
+*lol
+
+# End of https://www.gitignore.io/api/test,emacs,backup
